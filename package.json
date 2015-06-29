@@ -10,7 +10,7 @@
         "stringify": "3.1.0"
     },
     "packageDependencies": {
-        "statusbar": "CodeboxIDE/package-statusbar"
+        "statusbar": "code-box/package-statusbar"
     },
     "browserify": {
         "transform": [
