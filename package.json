@@ -10,6 +10,7 @@
         "stringify": "3.1.0"
     },
     "packageDependencies": {
+        "menubar": "code-box/package-menubar",
         "statusbar": "code-box/package-statusbar"
     },
     "browserify": {

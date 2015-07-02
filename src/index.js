@@ -97,3 +97,30 @@ codebox.app.once("ready", function() {
     about();
 });
 
+codebox.menubar.createMenu({
+    id: "help",
+    caption: "Help",
+    position: 100,
+    items: [
+        {
+            caption: "About",
+            command: "application.about"
+        },
+        {
+            caption: "Welcome",
+            command: "application.welcome"
+        },
+        {
+            caption: "Releases Notes",
+            command: "application.changes"
+        },
+        {
+            caption: "Documentation",
+            command: "application.help"
+        },
+        {
+            caption: "Send Feedback",
+            command: "application.feedback"
+        }
+    ]
+});
